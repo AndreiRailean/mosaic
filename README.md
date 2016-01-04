@@ -1,3 +1,15 @@
+Canva Frontend Engineer Test Solution
+--
+
+I found this code on my computer and decided to post it to github for future reference. 
+This was my first ever work with HTML canvas.
+
+Canva didn't quite like my submission because it was too simple for them. They wanted to see more web worker magic and other fancy stuff. As I had to spend time learning HTML canvas, I didn't have much time left to make a super-performant and testable solution.
+The only fancy thing in this submission is the use of promises to make it easier to work with batches of pixels asynchronously.
+
+Hope you find this repo useful.
+
+
 Photo mosaic
 ------------
 
