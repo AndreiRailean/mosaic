@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="js/mosaic.js"></script>
+    <title>Mosaic</title>
+    <style media="screen">
+      body {
+        background-color: #eee;
+      }
+
+      * {
+        font-family: sans-serif;
+      }
+
+      #dropper {
+        text-align: center;
+        border: dashed 3px grey;
+        border-radius: 10px;
+        width: 320px;
+        height: 320px;
+        float: left;
+        padding: 20px;
+        box-sizing: border-box;
+        margin: 20px;
+      }
+
+      #dropper.hover {
+        background-color: #75dac3;
+      }
+
+      .holder {
+        margin: 20px;
+        width: 640px;
+        height: 640px;
+        float: left;
+        background-color: #fff;
+      }
+
+      canvas, img {
+        image-rendering: optimizeQuality;
+        image-rendering: -moz-crisp-edges;
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: optimize-contrast;
+        -ms-interpolation-mode: nearest-neighbor;
+      }
+
+    </style>
+  </head>
+  <body>
+    <!-- Edit me. -->
+    <div id="dropper">
+      DROP FILE HERE
+      <br />
+      or <input type="file" id="inputFile">
+    </div>
+    <div class="holder"><canvas id="mosaic" width="640" height="640"></canvas></div>
+
+  </body>
+  <script type="text/javascript" src="js/client.js"></script>
+</html>
